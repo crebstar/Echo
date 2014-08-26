@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{a916260b-71b1-4e4f-a883-85b72ab552e6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPClient.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPServer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPClient.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPServer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TCPClient.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPServer.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPServer.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPClient.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
